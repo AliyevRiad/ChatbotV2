@@ -42,7 +42,7 @@ async def start(_, m: Message):
         await umm.delete()
         await m.reply_photo(
             photo=random.choice(IMG),
-            caption=f"""**๏ ʜᴇʏ, ɪ ᴀᴍ {VenomX.name}**\n**➻ ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ.**\n**──────────────**\n**➻ ᴜsᴀɢᴇ /chatbot [ᴏɴ/ᴏғғ]**\n<b>||๏ ʜɪᴛ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ||</b>""",
+            caption=f"""***๏ ʂαʟαʍ, мəɴ {VenomX.name}  ➻ ʙıʀ ᴀı ᴇsᴀsʟı sᴏ̈ʜʙəᴛ ʙᴏᴛᴜʏᴀᴍ.  ──────────────  ➻ ɪsᴛɪғᴀᴅə: /chatbot [on / off]  <b>||๏ ʏᴀʀᴅıᴍ üᴄ̧üɴ ʜᴇʟᴘ ᴅüʏᴍəsiɴə ʙᴀsıɴ||</b>""",
             reply_markup=InlineKeyboardMarkup(DEV_OP),
         )
         await add_served_user(m.from_user.id)
