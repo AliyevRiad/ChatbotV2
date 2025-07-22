@@ -1,4 +1,4 @@
-from pyrogram.types import InlineKeyboardButton
+itfrom pyrogram.types import InlineKeyboardButton
 
 from config import SUPPORT_GRP, UPDATE_CHNL
 from Venom import OWNER
@@ -53,15 +53,15 @@ HELP_BTN = [
         InlineKeyboardButton(text="🎄 ᴛᴏᴏʟs 🎄", callback_data="TOOLS_DATA"),
     ],
     [
-        InlineKeyboardButton(text="✨ ʙᴀᴄᴋ ✨", callback_data="BACK"),
-        InlineKeyboardButton(text="❄️ ᴄʟᴏsᴇ ❄️", callback_data="CLOSE"),
+        InlineKeyboardButton(text="⬅️ Geri", callback_data="BACK"),
+        InlineKeyboardButton(text="🔃 Bağla", callback_data="CLOSE"),
     ],
 ]
 
 
 CLOSE_BTN = [
     [
-        InlineKeyboardButton(text="❄️ ᴄʟᴏsᴇ ❄️", callback_data="CLOSE"),
+        InlineKeyboardButton(text="🔃 Bağla", callback_data="CLOSE"),
     ],
 ]
 
