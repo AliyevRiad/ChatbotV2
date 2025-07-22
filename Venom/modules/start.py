@@ -67,7 +67,7 @@ async def help(client: VenomX, m: Message):
     else:
         await m.reply_photo(
             photo=random.choice(IMG),
-            caption="**ʜᴇʏ, ᴘᴍ ᴍᴇ ғᴏʀ ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs!**",
+            caption="**sᴀʟᴀᴍ, ᴋᴏᴍᴀɴᴅʟᴀʀ ᴜ̈ᴄ̧ᴜɴ ᴍəɴə ᴘᴍ ᴀᴛ!**",
             reply_markup=InlineKeyboardMarkup(HELP_BUTN),
         )
         await add_served_chat(m.chat.id)
