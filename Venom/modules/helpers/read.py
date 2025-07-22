@@ -37,13 +37,14 @@ CHATBOT_READ = f"""
 <b>||©️ @{OWNER_USERNAME}||</b>
 """
 
-SOURCE_READ = f"**Salam! {VenomX.name} botunun mənbə kodu aşağıda təqdim olunub
+SOURCE_READ = f"""
+**Salam! {VenomX.name} botunun mənbə kodu aşağıda təqdim olunub
 Zəhmət olmasa repozitoriyanı fork edin və ✯ ulduz verin!
 ──────────────────
 Budur mənbə kodu
 ──────────────────
 Əgər hər hansı problem yaşasanız, dəstək çatına müraciət edin.
-<b>||©️ @{OWNER_USERNAME}||</b>"
+<b>||©️ @{OWNER_USERNAME}||</b>"""
 
 ADMIN_READ = f"sᴏᴏɴ"
 
