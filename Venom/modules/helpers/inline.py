@@ -11,7 +11,7 @@ DEV_OP = [
     ],
     [
         InlineKeyboardButton(
-            text="➕Qrupa Əlavə et ➕",
+            text="➕ Qrupa Əlavə et ➕",
             url=f"https://t.me/{VenomX.username}?startgroup=true",
         ),
     ],
@@ -19,21 +19,21 @@ DEV_OP = [
         InlineKeyboardButton(text="📚 Kömək", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="❄️ sᴏᴜʀᴄᴇ ❄️", callback_data="SOURCE"),
-        InlineKeyboardButton(text="☁️ ᴀʙᴏᴜᴛ ☁️", callback_data="ABOUT"),
+        InlineKeyboardButton(text="🤍 Söhbət Qrupu", callback_data=f"https://t.me/{SUPPORT_GRP}"),
+        InlineKeyboardButton(text="⚙️ Haqqında", callback_data="ABOUT"),
     ],
 ]
 
 PNG_BTN = [
     [
         InlineKeyboardButton(
-            text="😍 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 😍",
+            text="➕ Məni Qrupuna Əlavə et ➕",
             url=f"https://t.me/{VenomX.username}?startgroup=true",
         ),
     ],
     [
         InlineKeyboardButton(
-            text="✨ ᴄʟᴏsᴇ ✨",
+            text="🔃 Bağla ",
             callback_data="CLOSE",
         ),
     ],
@@ -42,7 +42,7 @@ PNG_BTN = [
 
 BACK = [
     [
-        InlineKeyboardButton(text="✨ ʙᴀᴄᴋ ✨", callback_data="BACK"),
+        InlineKeyboardButton(text="🔙 Geri", callback_data="BACK"),
     ],
 ]
 
